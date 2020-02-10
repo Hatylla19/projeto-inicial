@@ -1,3 +1,5 @@
+link da atividade : https://www.urionlinejudge.com.br/repository/UOJ_1041.html
+
 Algoritmo "coordenadas de um ponto"
 
 Var
@@ -9,25 +11,25 @@ Inicio
       ESCREVAL("INFORME O VALOR DE Y")
       LEIA (Y)
       
-      SE((X = 0) E (Y = 0)) ENTﾃO
+      SE((X = 0) E (Y = 0)) ENTﾃグ
          ESCREVAL("ORIGEM")
-      SENﾃO
-      SE (Y = 0) ENTﾃO
+      SENﾃグ
+      SE (Y = 0) ENTﾃグ
          ESCREVAL("EIXO Y")
-      SENﾃO
-      SE (X = 0) ENTﾃO
+      SENﾃグ
+      SE (X = 0) ENTﾃグ
          ESCREVA ("EIXO X")
-      SENﾃO
-      SE ((X > 0) E (Y > 0)) ENTﾃO
+      SENﾃグ
+      SE ((X > 0) E (Y > 0)) ENTﾃグ
          ESCREVA("QUADRANTE 1")
-      SENﾃO
-      SE ((X < 0) E (Y > 0)) ENTﾃO
+      SENﾃグ
+      SE ((X < 0) E (Y > 0)) ENTﾃグ
          ESCREVAL ("QUADRANTE 2")
-      SENﾃO
-      SE ((X < 0) E (Y < 0)) ENTﾃO
+      SENﾃグ
+      SE ((X < 0) E (Y < 0)) ENTﾃグ
          ESCREVAL("QUADRANTE 3")
-      SENﾃO
-      SE((X > 0) E (Y < 0)) ENTﾃO
+      SENﾃグ
+      SE((X > 0) E (Y < 0)) ENTﾃグ
          ESCREVAL("QUADRANTE 4")
          
 FIMSE
