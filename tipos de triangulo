@@ -1,0 +1,32 @@
+Algoritmo "TIPOS DE TRIANGULOS"
+//  
+Var
+a,b,c: real
+validade: logico
+
+Inicio
+      escreval("informe o primeiro lado do triangulo ")
+      leia(a)
+      escreval("informe o segundo lado do triangulo ")
+      leia(b)
+      escreval("informa o terceiro lado do triangulo")
+      leia(c)
+      se  (a<(b+c)) e (b<(a+c)) e (c< (a+b))entao
+      validade <- verdadeiro
+      senao
+      validade <- falso
+      fimse
+      se (validade = verdadeiro) entao
+      se(a=b) e (a=c) e (b=c) entao
+      escreval("triangulo equilatero")
+      fimse
+      se (a = b) e (a = c) e (b <> c) entao
+      escreva ("Triângulo isóceles")
+      fimse
+      se (a <> b) e (a <> c) e (b <> c) entao
+      escreva ("Triângulo escaleno")
+      fimse
+      senao
+      escreva ("Não é um triângulo")
+fimse
+
