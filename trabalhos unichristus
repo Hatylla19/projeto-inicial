@@ -10,3 +10,22 @@ escreva("o numero digitado e ",numero)
 
 
 Fimalgoritmo
+
+
+
+
+questão 2 :
+
+Algoritmo "leitura de numero real"
+
+var
+   numero:real
+
+
+inicio
+      escreva("digite um numero real ")
+      leia(numero)
+      escreva("o numero digitado e ", numero)
+
+
+fimalgoritmo
