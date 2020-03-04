@@ -184,7 +184,148 @@ Inicio
 Fimalgoritmo
 
 
+
+
 questão 10:
+
+
+
+Algoritmo "conversão de km/h para m/s"
+
+Var
+    vel_k,mts_seg :real
+
+
+Inicio
+      escreva("informe sua velocidade em km/h ")
+      leia(vel_k)
+      mts_seg <- (vel_k /3.6)
+      escreva ("a velocidade dada em metros por segundo e " , mts_seg:4:2)
+      
+
+Fimalgoritmo
+
+
+
+
+
+questão 11 : 
+
+
+Algoritmo "conversão de m/s para km/h"
+
+Var
+    vel_k,mts_seg :real
+
+
+Inicio
+      escreva("informe sua a velocidade em metros por segundo ")
+      leia(mts_seg)
+      vel_k <- (mts_seg * 3.6)
+      escreva ("a velocidade dada em metros por segundo e em km/h =  " , vel_k:4:1)
+      
+
+Fimalgoritmo
+
+
+
+
+
+questão 12:
+
+
+Algoritmo "milhas convertida para km"
+
+Var
+   milhas,km: real
+
+
+Inicio
+      escreva("informe sua distancia em milhas  ")
+      leia(milhas)
+      km <- (1.61 * milhas)
+      escreva ("a distancia dada em milha convertida em km e igual a :" ,km:4:2)
+      
+
+Fimalgoritmo
+
+
+
+
+questão 13: 
+
+
+Algoritmo "km convertida para milhas"
+
+Var
+   milhas,km: real
+
+
+Inicio
+      escreva("informe sua distancia km  ")
+      leia(km)
+      milhas  <- (km/1.61)
+      escreva ("a distancia dada em km convertida em milhas e igual a :" ,milhas:4:1)
+
+      
+
+Fimalgoritmo
+
+
+
+
+questão 14:
+
+
+Algoritmo "graus para radianos"
+
+Var
+   p,graus,rad:real
+
+
+Inicio
+      escreva("informe um numero em graus ")
+      leia(graus)
+      p <- 3,14
+      rad <- (graus * p/180)
+      escreva ("o numero informado em graus convertido para radianos e = ",rad:3:1)
+
+      
+
+Fimalgoritmo
+
+
+
+
+questão 15: 
+
+
+Algoritmo "radiano para graus"
+
+Var
+   p,graus,rad:real
+
+
+Inicio
+      escreva("informe um numero  em radianos ")
+      leia(rad)
+      p <- 3,14
+      graus <- (rad * 180/p) - 27
+      escreva ("o numero informado em radianos convertido para graus e aproximadamente  ",graus)
+
+      
+
+Fimalgoritmo
+
+
+
+
+questçao 16:
+
+
+
+
+
 
 
 
