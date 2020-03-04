@@ -323,6 +323,249 @@ Fimalgoritmo
 questçao 16:
 
 
+Algoritmo "transformação de polegadas em centimetros"
+
+
+Var
+   pol,c :real
+
+
+Inicio
+      escreva("informe um valor em polegadas ")
+      leia (pol)
+      c <- (pol * 2.54)
+      escreva("o numero dado em polegadas transformado em centimentros e = ",c)
+
+
+
+Fimalgoritmo
+
+
+
+
+questão 17:
+
+
+Algoritmo "transformação de centimetros em polegadas"
+
+
+Var
+   pol,c :real
+
+
+Inicio
+      escreva("informe um valor em centimetros  ")
+      leia (c)
+      pol <- (c/2.54)
+      escreva("o numero dado em centimetros transformado em polegadas e = ",pol:4:2)
+
+
+
+Fimalgoritmo
+
+
+
+
+questão 18: 
+
+
+Algoritmo "metros cubicos convertido em litros"
+
+
+Var
+mtc,met_cub,lts :real
+
+
+Inicio
+      escreva("informe um numero em metros cubicos ")
+      leia(mtc)
+      lts <- (1000*mtc)
+      escreva("o numero dado em metros cubicos convertido em litros e = ",lts)
+
+
+
+
+Fimalgoritmo
+
+
+
+
+questão 19: 
+
+
+
+Algoritmo "litros convertido em metros cubicos"
+
+
+Var
+mtc,lts :real
+
+
+Inicio
+      escreva("informe um numero em litros ")
+      leia(lts)
+      mtc <- (lts/1000)
+      escreva("o numero dado em litros convertido para metros cubicos  e = ",mtc)
+
+
+
+
+Fimalgoritmo
+
+
+
+
+
+questão 20:
+
+
+
+Algoritmo "valor de massa quilogramas convertido libras"
+
+
+Var
+mkg,lib :real
+
+
+Inicio
+      escreva("informe um numero que represente a massa de um quilograma ")
+      leia(mkg)
+      lib <- (mkg/0.45)
+      escreva("o numero informado em quilogramas convertido para libras e aproximadamente  ",lib:4:1)
+
+
+
+Fimalgoritmo
+
+
+
+
+
+questão 21: 
+
+
+
+Algoritmo "valor de massa libras convertido para quilogramas"
+
+
+Var
+mkg,lib :real
+
+
+Inicio
+      escreva("informe um numero que represente a massa em libras ")
+      leia(lib)
+      mkg <- (lib* 0.45)
+      escreva("o numero informado em libras convertido para quilogramas e aproximadamente  ",mkg)
+
+
+
+Fimalgoritmo
+
+
+
+
+questão 22: 
+
+
+
+Algoritmo "jardas convertido para metros"
+
+
+Var
+   jds,mts :real
+
+
+Inicio
+      escreva("informe um comprimento em jardas ")
+      leia(jds)
+      mts <- (0.91*jds)
+      escreva ("o comprimento informado em jardas convertido para metros e = ",mts:4:1)
+      
+
+
+
+
+Fimalgoritmo
+
+
+
+
+questão 23 :
+
+
+Algoritmo "metros convertido para jardas"
+
+
+Var
+   jds,mts :real
+
+
+Inicio
+      escreva("informe um comprimento metros ")
+      leia(mts)
+      jds <- (mts/0.91)
+      escreva ("o comprimento informado em metros convertido para metros e = ",mts)
+      
+
+
+Fimalgoritmo
+
+
+
+
+questão 24:
+
+
+
+Algoritmo "metros quadrados convertido para acres"
+
+
+Var
+   mtsq,acres : real
+
+Inicio
+      escreva("informe um numero em metros quadrado  ")
+      leia(mtsq)
+      acres <- (mtsq*0.000247)
+      escreva ("o numero informado em metros quadrado convertido para acres = ",acres:2:4)
+
+
+Fimalgoritmo
+
+
+
+
+questão 25 :
+
+
+
+Algoritmo "acres convertido para metros quadrados"
+
+
+Var
+   mtsq,acres : real
+
+Inicio
+      escreva("informe um numero em acres  ")
+      leia(acres)
+      mtsq <- (acres*4048.58)
+      escreva ("o numero informado em acres convertido para metros quadrados aproximadamente ",mtsq)
+
+
+Fimalgoritmo
+
+
+
+
+questão 26 :
+
+
+
+
+
+
+
 
 
 
