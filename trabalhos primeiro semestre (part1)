@@ -562,6 +562,264 @@ questão 26 :
 
 
 
+Algoritmo "metros quadrados convertido em hectares"
+
+
+Var
+   mtsq,hec: real
+
+
+Inicio
+      escreva("informe um numero em metros quadrados")
+      leia(mtsq)
+      hec <- (mtsq*0.0001)
+      escreva("o numero informado em metros quadrados convertido para hectares e = ",hec)
+
+
+Fimalgoritmo
+
+
+
+
+questão 27:
+
+
+
+Algoritmo "hectares convertido em metros quadrados"
+
+
+Var
+   mtsq,hec: real
+
+
+Inicio
+      escreva("informe um numero em metros hectares ")
+      leia(hec)
+      mtsq <- (hec*10000)
+      escreva("o numero informado em hectares convertido para metros quadrados e = ",mtsq)
+
+
+Fimalgoritmo
+
+
+
+
+questão 28 :
+
+
+
+Algoritmo "soma do quadrado de 3 numeros"
+
+
+Var
+   n1,n2,n3,sq:real
+
+
+
+Inicio
+      escreva("informe numero 1 ")
+      leia(n1)
+      escreva("informe numero 2 ")
+      leia(n2)
+      escreva("informe numero 3 ")
+      leia(n3)
+      sq <- (n1*n1) + (n2*n2) + (n3*n3)
+      escreva ("a soma dos 3 numeros elevado ao quadrado e = ",sq)
+      
+
+
+
+Fimalgoritmo
+
+
+
+
+questão 29 :
+
+
+
+
+Algoritmo "soma do quadrado de 3 numeros"
+
+
+Var
+   n1,n2,n3,n4,med:real
+
+
+
+Inicio
+      escreva("informe o primeiro numero  ")
+      leia(n1)
+      escreva("informe o segundo numero  ")
+      leia(n2)
+      escreva("informe o terceiro numero ")
+      leia(n3)
+      escreva("informe o quarto numero  ")
+      leia(n4)
+      med <- (n1+n2+n3+n4)/4
+      escreva("a media aritmetica dos numeros citados e igual a : ",med)
+
+
+
+Fimalgoritmo 
+
+
+
+
+questão 30:
+
+
+
+Algoritmo "reais em dolares"
+
+
+Var
+   reais,dolar,conv: real
+
+
+
+Inicio
+      escreva("informe um valor em reais  R$ ")
+      leia(reais)
+      dolar <- 4.56
+      conv <- (reais/dolar)
+      escreva("o valor citado em reais transformado em dolar e igual a  U$",conv:5:2)
+
+
+
+Fimalgoritmo
+
+
+
+
+
+questão 31:
+
+
+Algoritmo "intessesor e sucessor "
+
+
+Var
+   num,ant,suc:inteiro
+
+
+
+Inicio
+      escreva("informe um numero ")
+      leia(num)
+      ant <- (num - 1)
+      suc <- (num + 1)
+      escreva(" o antecessor e",ant)
+      escreva(" e o sucessor e ",suc)
+
+Fimalgoritmo
+
+
+
+
+
+questão 32:
+
+
+
+Algoritmo "intessesor e sucessor "
+
+
+Var
+   num,ant,suc,somaa,somas:inteiro
+
+
+
+Inicio
+      escreva("informe um numero ")
+      leia(num)
+      ant <- (num - 1)
+      suc <- (num + 1)
+      escreval("o numero informado e ",num)
+      escreval(" o antecessor e ",ant)
+      escreval(" e o sucessor e ",suc)
+      somaa <- (ant*ant*ant)
+      somas <- (suc*suc)
+      escreval("o triplo do antecessor ",somaa)
+      escreval("o duplo do sucessor ",somas)
+
+Fimalgoritmo
+
+
+
+
+questão 33:
+
+
+
+Algoritmo "area de um quadrado"
+
+
+Var
+   lado,area:real
+
+
+
+Inicio
+      escreval("informe um lado do quadrado")
+      leia(lado)
+      area <- (lado*lado)
+      escreva("a area do quadrado informado e igual a ",area)
+
+
+Fimalgoritmo
+
+
+
+
+
+questão 34:
+
+
+
+
+Algoritmo "area de um circulo"
+
+
+Var
+   raio,p,area:real
+
+
+
+Inicio
+      escreval("informe o valor do raio de um circulo ")
+      leia(raio)
+      p <- 3.1415
+      area <- (p*raio*raio)
+      escreva("a area do circulo informado e igual a ",area)
+
+
+Fimalgoritmo
+
+
+
+
+
+questão 35 :
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
