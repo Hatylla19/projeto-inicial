@@ -1,0 +1,192 @@
+questão 1
+
+
+Algoritmo "leitura de um numero inteiro "
+
+Var
+numero :inteiro
+
+Inicio
+escreva("informe um numero ")
+leia(numero)
+escreva("o numero digitado e ",numero)
+
+
+Fimalgoritmo
+
+
+
+
+questão 2 :
+
+Algoritmo "leitura de numero real"
+
+var
+   numero:real
+
+
+inicio
+      escreva("digite um numero real ")
+      leia(numero)
+      escreva("o numero digitado e ", numero)
+
+
+fimalgoritmo
+
+
+
+
+
+
+questao 3
+
+
+Algoritmo "soma de 3 numeros"
+
+var
+   soma_num,n1,n2,n3:inteiro
+   
+
+inicio
+      escreva("digite o primeiro numero ")
+      leia(n1)
+      escreva("digite o segundo numero ")
+      leia(n2)
+      escreva("informe o terceiro numero ")
+      leia(n3)
+      soma_num <- (n1+n2+n3)
+      escreval("a soma dos numeros e ",soma_num)
+      
+
+
+fimalgoritmo
+
+
+
+questão 4:
+
+Algoritmo "numero elevado ao quadrado"
+
+var
+   numero,q:real
+   
+
+inicio
+      escreva("informe um numero ")
+      leia(numero)
+      q <- (numero^2)
+      escreva(" o numero informado elevado ao quadrado e ",q)
+
+
+fimalgoritmo
+
+
+
+questão 5:
+
+
+Algoritmo "quinta parte de um numero"
+
+var
+resul,numero:real
+
+   
+
+inicio
+      escreva("informe um numero ")
+      leia(numero)
+      resul <- (numero/5)
+      escreva("a quinta parte do numero informado e ", resul)
+
+
+fimalgoritmo
+
+
+
+
+questão 6:
+
+Algoritmo "celsius para Fahrenheit"
+
+Var
+gc,gf,con:real
+
+
+Inicio
+      escreva ("informe uma temperatura em celsius ")
+      leia(gc)
+      con <- (gc*(9.0/5.0)+32)
+      escreva("o grau dado em celsius convertido para Fahrenheit fica ",con)
+
+
+Fimalgoritmo
+
+
+
+questão 7
+
+
+
+Algoritmo "fahrenheit para celsius"
+
+Var
+gc,gf,con:real
+
+
+Inicio
+      escreva ("informe uma temperatura em Fahrenheit ")
+      leia(gf)
+      con <- (5 * (gf - 32)/9)
+      escreva("o grau dado em Fahrenheit convertido para celsius fica ",con:4:1)
+
+
+Fimalgoritmo
+
+
+
+
+questão 8
+
+
+Algoritmo "kelvin para celsius"
+
+Var
+ggc,gk,con:real
+
+
+Inicio
+      escreva ("informe uma temperatura em kelvin ")
+      leia(gk)
+      con <- (gK - 273.15)
+      escreva("o grau dado em kelvin convertido para celsius fica ",con:4:2)
+
+
+Fimalgoritmo
+
+
+
+questão 9 
+
+
+Algoritmo "celsius para kelvin"
+
+Var
+gc,gk,con:real
+
+
+Inicio
+      escreva ("informe uma temperatura em celsius ")
+      leia(gc)
+      con <- (gc + 273.15)
+      escreva("o grau dado em celsius convertido para kelvin fica ",con:4:2)
+
+
+Fimalgoritmo
+
+
+questão 10:
+
+
+
+
+
