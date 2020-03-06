@@ -803,6 +803,61 @@ Fimalgoritmo
 questão 35 :
 
 
+Algoritmo "catetos de um triangulo"
+
+Var
+   a,b,hip :real
+
+
+
+Inicio
+      escreva("informe o valor do cateto a ")
+      leia(a)
+      escreva("informe o valor do cateto b ")
+      leia(b)
+      hip <- raizq ((a^2) + (b^2))
+      escreva("a hipotenusa desses catetos e: ",hip:4:1)
+
+
+
+Fimalgoritmo
+
+
+
+
+questão 36:
+
+
+Algoritmo "valor de um cilindro"
+
+Var
+   p,r,a,vol:real
+
+
+
+Inicio
+      escreva("informe a altura do cilindro : ")
+      leia(a)
+      escreva("informe o raio do cilindro ")
+      leia(r)
+      p <- 3,141592
+      vol <- (p*r^2*a)
+      escreva("o volume do cilindro circular e : ",vol:4:1)
+
+
+
+Fimalgoritmo
+
+
+
+
+questão 37: 
+
+
+
+
+
+
 
 
 
