@@ -851,39 +851,50 @@ Fimalgoritmo
 
 
 
+
+
 questão 37: 
 
 
 
+Algoritmo "desconto de um produto"
+
+Var
+   prod,desc,vf:real
+
+Inicio
+      escreval("informe o preço de um produto ; ")
+      leia(prod)
+      desc <- prod*(12/100)
+      vf <- (prod - desc)
+      escreval("o produto informado com desconto custa: ",vf)
+
+
+Fimalgoritmo
 
 
 
 
+questão 38:
+
+
+
+Algoritmo "aumento de 25%"
+
+Var
+   sb,reaj,sal_fin :real
+
+Inicio
+      escreval("informe o valor de seu salario bruto ; ")
+      leia(sb)
+      reaj <- sb*(25/100)
+      sal_fin <- (sb + reaj)
+      escreval("o valor do seu salario com o reajuste e : ",sal_fin)
+
+
+Fimalgoritmo
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+questão 39:
