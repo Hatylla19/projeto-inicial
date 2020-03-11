@@ -900,5 +900,70 @@ Fimalgoritmo
 questão 39: 
 
 
+Algoritmo "780 mil dividido em 3 ganhadores"
+
+Var
+   v1,v2,v3: real
+
+Inicio
+      escreval ("o valor de 780.000,00 r$ sera dividido entre 3 pessoas  ")
+      escreval ("cada pessoa vai receber uma porcentagem do valor ")
+      v1 <- (780.000/100)* 46
+      escreval ("o 1º lugar,ganha r$  ",v1  )
+      v2 <- (780.000/100)*32
+      escreval("o 2º lugar, ganha r$ ",v2  )
+      v3 <- (780.000/100)*22
+      escreval ("o 3º lugr,ganha r$ ",v3)
+
+      
+
+
+Fimalgoritmo
+
+
+
+
+
+questão 40 :
+
+
+
+Algoritmo "diaria de um encanador"
+
+Var
+   ir,dt,ql:real
+   diaria:inteiro
+
+
+Inicio
+      escreval ("informe os dias trabalhados ")
+      leia(dt)
+      diaria <- 30
+      ir <- 92/100
+      ql <- (dt * diaria) * ir
+      escreval("salario mensal com desconto do imposto de renda r$ ",ql)
+      
+
+      
+
+
+Fimalgoritmo
+
+
+
+
+questão 41:
+
+
+
+
+
+
+
+
+
+
+
+
 
 
