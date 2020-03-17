@@ -956,6 +956,272 @@ questão 41:
 
 
 
+Algoritmo "semnome"
+
+Var
+
+   Vht, Ht, V, sal: real
+
+Inicio
+
+   escreva ("Digite o valor da hora de trabalho: '')
+   leia (Vht)
+
+   escreva ("Digite o numero de horas trabalhadas por mês: ")
+   leia (Ht)
+
+   V <- Vht*Ht
+
+   sal <- V + 0.1*V
+   
+   escreva ("O valor a ser pago é: ", sal)
+
+
+
+
+Fimalgoritmo
+
+
+
+questão 42: 
+
+
+Algoritmo "semnome"
+
+Var
+
+   Sb, grat, imp, sal: real
+
+Inicio
+
+   escreva ("Digite o salario base do funcionario: ")
+   leia (Sb)
+
+   grat <- 0.05*Sb
+   imp <- 0.07*Sb
+   
+   sal <- Sb + grat - imp
+   
+   escreva ("O salario a receber é: ", sal)
+
+
+
+
+Fimalgoritmo
+
+
+
+questão 43: 
+
+
+
+Algoritmo "semnome"
+
+Var
+
+   Vt, Desc, Parc, Com, ComP: real
+
+Inicio
+
+   Escreva ("O valor total é: ")
+   leia (Vt)
+   
+   Desc <- Vt - 0.1*Vt
+   
+   Parc <- Vt/3
+   
+   Com <- 0.05*Desc
+   
+   ComP <- 0.05*Vt
+   
+   Escreval ("O valor total a pagar com o desconto de 0.1: ", Desc)
+   Escreval ("O valor da parcela em 3x sem juros: ", Parc)
+   Escreval ("O valor da comissão do vendedor se a venda for a vista: ", Com)
+   Escreva ("O valor da comissao do vendedor se a venda for parcelada: ", ComP)
+   
+   
+
+
+
+
+Fimalgoritmo
+
+
+
+
+
+
+questão 44:
+
+
+
+
+Algoritmo "semnome"
+
+Var
+
+   Hd, Ha, Degraus: real
+
+Inicio
+
+   escreva ("altura do degrau da escada:")
+   leia (Hd)
+   escreva ("altura que voce deseja alcançar:")
+   leia (Ha)
+
+   Degraus <- Ha/Hd
+
+   escreva ("voce precisa subir", Degraus, " degraus")
+
+
+
+
+
+
+
+
+Fimalgoritmo
+
+
+
+
+questão 48: 
+
+
+
+Algoritmo "semnome"
+
+Var
+
+   s, h, m: real
+
+Inicio
+
+   Leia (s)
+
+   h <- s/3600
+   m <- s/60
+   
+   escreval ("o numero em H é:", h)
+   escreval ("o numero em min é:", m)
+   escreva ("o numero em seg é:", s)
+   
+
+
+
+
+
+
+
+
+Fimalgoritmo
+
+
+
+questão 50: 
+
+
+Algoritmo "semnome"
+
+Var
+
+   i, At, An: inteiro
+
+Inicio
+
+   Escreva ("Digite a sua idade:")
+   leia (i)
+   
+   Escreva ("Digite o ano atual:")
+   leia (At)
+   
+   An <- At - i
+   
+   Escreva ("Seu ano de nascimento é: ", An)
+   
+   
+
+
+
+Fimalgoritmo
+
+
+
+questão 51 :
+
+
+Algoritmo "semnome"
+
+Var
+
+   x, y, D: real
+
+Inicio
+
+   Escreva ("valor de x:")
+   leia (x)
+   
+   Escreva ("valor de y:")
+   leia (y)
+   
+   D <- RaizQ(x^2+y^2)
+   
+   Escreva ("a distancia é: ", D)
+   
+   
+
+
+
+
+
+
+
+
+Fimalgoritmo
+
+
+
+
+questão 53: 
+
+
+
+Algoritmo "semnome"
+
+Var
+
+   c, l, p, A, C: real
+
+Inicio
+
+   Escreva ("valor do comprimento:")
+   leia (c)
+
+   Escreva ("valor da largura:")
+   leia (l)
+
+   escreva ("valor do metro de tela:")
+   leia (p)
+   
+   A <- c*l
+   C <- A*p
+   
+   escreva ("O custo para cercar o terreno é: ")
+
+
+
+
+
+
+
+
+
+
+Fimalgoritmo.
+
+
+
+
 
 
 
