@@ -24,6 +24,141 @@ Fimalgoritmo
 questão 2:
 
 
+algoritmo "semnome"
+var
+   c, f, n:inteiro
+inicio
+      escreva ("informe um numero: ")
+      leia(n)
+      se(n = 0)entao
+           escreva(1)
+                senao
+                f <- n
+                c <- 1
+      enquanto (c < n)faca
+                f <- f*(n - c)
+                c <- c + 1
+      fimenquanto
+      escreva(f)
+      fimse
+fimalgoritmo
+
+
+
+
+questão 3:algoritmo "fibonacci"
+
+var
+   x, atual, anterior, novo:inteiro
+inicio
+
+   atual <- 1
+   anterior <- 0
+   escreval (atual)
+   para x <- 1 ate 20 faca
+      novo <- atual + anterior
+      anterior <- atual
+      atual <- novo
+      escreval (novo)
+      
+   fimpara
+   
+fimalgoritmo
+
+
+
+questão 4:
+
+algoritmo "maior e menor numero"
+
+var
+    N,MA,ME:inteiro
+inicio
+
+      ESCREVAL("INFORME O PRIMEIRO NUMERO ")
+    LEIA (N)
+    PARA DE 2 ATE 10
+    PROXIMO
+    SE N > MA ENTAO
+    MA <- N
+    SENAO
+    SE N < ME ENTAO
+    ME <- N
+    FIMSE
+    FIMSE
+    ESCREVAL ("",ME,"\n\n"
+    ESCREVAL (MA)
+    FIMSE
+    
+fimalgoritmo
+
+
+
+questão 5:
+
+
+
+algoritmo "numeros_primos"
+
+var
+    inteiro: n1, n2, a, b
+
+
+inicio
+
+    logico:primo
+    escreva ("digite o primeiro números")
+    leia(n1)
+    escreva("digite o segundo numero ")
+    leia(n2)
+      para a de n1 até n2 passo 1 faça
+      primo = v
+         para b de 2 até (a-1) passo 1 faça
+            se (a mod b = 0)
+            então
+              primo = f
+            fimse
+         fimpara
+       se primo = v
+          então
+            escreva ("os números primos são ")
+        fimse
+       fimpara
+       
+fimalgoritmo
+
+
+
+
+questão 6:
+
+
+
+algoritmo "soma_igual_a_7"
+
+Var
+  cont1, cont, soma : inteiro
+
+Inicio
+  para cont de 1 ate 6 passo 1 faca
+     para cont1 de 1 ate 6 passo 1 faca
+        se cont + cont1 = 7 entao
+        soma <- cont + cont1
+        escreval(cont, " +", cont1, " =", soma)
+        fimse
+     fimpara
+  fimpara
+Fimalgoritmo
+
+
+
+
+
+
+
+
+
+
 
 
 
